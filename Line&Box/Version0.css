@@ -1,0 +1,36 @@
+/* Basic */
+
+body
+{
+    background: darkslategray;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Timeline */
+
+.timeline
+{
+    border-left: 4px solid darkturquoise; 
+    background: slategray; 
+    margin: auto;   
+    position: relative;   
+    padding: 30px;
+    text-align: left;
+    max-width: 30%;
+}
+  
+.event
+{
+    border-bottom: 1px solid lightslategrey;
+    padding-bottom: 15 px;
+    margin-bottom: 30px;  
+    position: relative;
+}
+    
+.event:last-of-type
+{ 
+    padding-bottom: 0;
+    margin-bottom: 0; 
+    border: none;      
+}
